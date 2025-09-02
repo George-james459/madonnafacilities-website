@@ -1,81 +1,110 @@
+
+</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MADONA Facility Management Providers</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Madonna Facilities</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: white;
+      padding: 10px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #0073e6;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url("hero.jpg") no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding-top: 120px; /* Pushes hero below header */
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+    }
+  </style>
 </head>
 <body>
-    <!-- Navigation -->
-    <header>
->
-        <nav class="navbar">
-          <img src="logo.png" alt="Madonna Logo" style="height:100px;">
+  <!-- Header -->
+  <header>
+    <img src="logo.png" alt="Madonna Logo">
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div>
+      <h1>Welcome to Madonna Facilities</h1>
+      <p>Your trusted partner in housekeeping & facility management</p>
+    </div>
+  </section>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>MADONA Facility Management Providers</h1>
-            <p>Your Complete Home Care Solution for Apartments, Hotels, Hospitals, and Offices.</p>
-            <p class="sub-headline">From routine cleaning to urgent repairs, we keep your space in perfect condition so you can focus on what matters.</p>
-            <a href="#contact" class="btn">Get a Free Quote</a>
-        </div>
-    </section>
+  <!-- About Section -->
+  <section id="about" style="padding:60px; text-align:center;">
+    <h2>About Us</h2>
+    <p>We provide professional housekeeping and facility management services for homes, apartments, offices, hospitals, and more.</p>
+  </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <h2>About Us</h2>
-        <p>Our story began with the daily struggles of city life—dirty apartments, leaky faucets, and unreliable housekeeping staff. We created MADONA Facility Management Providers to bring reliability, quality, and trust to housekeeping and maintenance.</p>
-        <h3>Our Mission</h3>
-        <ul>
-            <li>✔ Quality: Deliver high-standard cleaning and maintenance services.</li>
-            <li>✔ Reliability: Always on-time and consistent.</li>
-            <li>✔ Customer Satisfaction: Tailored solutions for every client.</li>
-        </ul>
-        <p>Our goal is to be the trusted partner for all your housekeeping and maintenance needs.</p>
-    </section>
+  <!-- Services Section -->
+  <section id="services" style="padding:60px; background:#f9f9f9; text-align:center;">
+    <h2>Our Services</h2>
+    <ul style="list-style:none; padding:0;">
+      <li>✔️ Housekeeping</li>
+      <li>✔️ Deep Cleaning</li>
+      <li>✔️ Electrical & Plumbing Repairs</li>
+      <li>✔️ Facility Management</li>
+    </ul>
+  </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <h2>Our Services</h2>
-        <div class="service-cards">
-            <div class="card">
-                <h3>Housekeeping</h3>
-                <p>Regular or deep cleaning plans to keep your space spotless.</p>
-            </div>
-            <div class="card">
-                <h3>Maintenance</h3>
-                <p>Expert electrical, plumbing, and AC repair services.</p>
-            </div>
-            <div class="card">
-                <h3>Repairs</h3>
-                <p>Skilled technicians for painting, gas stoves, and other home fixes.</p>
-            </div>
-        </div>
-        <a href="#contact" class="btn">Schedule Your Service</a>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <p>Email: <a href="mailto:georgejames.459@gmail.com">georgejames.459@gmail.com</a></p>
-        <p>Phone: <a href="tel:+919037172323">+91 90371 72323</a></p>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 MADONA Facility Management Providers. All rights reserved.</p>
-    </footer>
+  <!-- Contact Section -->
+  <section id="contact" style="padding:60px; text-align:center;">
+    <h2>Contact Us</h2>
+    <p>Email: info@madonnafacilities.com | Phone: +91 98765 43210</p>
+  </section>
 </body>
 </html>
